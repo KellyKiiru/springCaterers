@@ -1,43 +1,43 @@
 @font-face {
     font-family: 'AlexBrushRegular';
-    src: url('assets/fonts/Alex_Brush/AlexBrushRegular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Alex_Brush/AlexBrushRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Great_vibes';
-    src: url('assets/fonts/Great_vibes/Greatvibes-regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Great_vibes/Greatvibes-regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Inspiration';
-    src: url('assets/fonts/Inspiration/Inspiration-Regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Inspiration/Inspiration-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Kaushan_Script';
-    src: url('assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Parisienne';
-    src: url('assets/fonts/Parisienne/Parisienne-Regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Parisienne/Parisienne-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Sacramento';
-    src: url('assets/fonts/Sacramento/Sacramento-Regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Sacramento/Sacramento-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Tangerine';
-    src: url('assets/fonts/Tangerine/Tangerine-Regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Tangerine/Tangerine-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Mynerve';
-    src: url('assets/fonts/Mynerve/Mynerve-Regular.ttf') format('truetype');
+    src: url('/src/assets/fonts/Mynerve/Mynerve-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
