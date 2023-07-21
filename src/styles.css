@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'AlexBrushRegular';
-    src: url('src\assets\fonts\Alex_Brush\AlexBrushRegular.ttf') format('truetype');
+    src: url('src\assets\fonts\Alex_Brush\AlexBrushRegular.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Inspiration';
-    src: url('/src/assets/fonts/Inspiration/Inspiration-Regular.ttf') format('truetype');
+    src: url('src\assets\fonts\Inspiration\Inspiration-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -22,22 +22,22 @@
 
 @font-face {
     font-family: 'Parisienne';
-    src: url('/src/assets/fonts/Parisienne/Parisienne-Regular.ttf') format('truetype');
+    src: url('src\assets\fonts\Parisienne\Parisienne-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Sacramento';
-    src: url('/src/assets/fonts/Sacramento/Sacramento-Regular.ttf') format('truetype');
+    src: url('src\assets\fonts\Sacramento\Sacramento-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Tangerine';
-    src: url('/src/assets/fonts/Tangerine/Tangerine-Regular.ttf') format('truetype');
+    src: url('src\assets\fonts\Tangerine\Tangerine-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Mynerve';
-    src: url('/src/assets/fonts/Mynerve/Mynerve-Regular.ttf') format('truetype');
+    src: url('src\assets\fonts\Mynerve\Mynerve-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
