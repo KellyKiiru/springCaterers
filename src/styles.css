@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'Kaushan_Script';
-    src: url('/src/assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf') format('truetype');
+    src: url('src\assets\fonts\Kaushan_Script\KaushanScript-Regular.ttf') format('truetype');
 }
 
 @font-face {
