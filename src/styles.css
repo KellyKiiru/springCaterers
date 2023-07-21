@@ -5,10 +5,10 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Great_vibes';
     src: url('/src/assets/fonts/Great_vibes/Greatvibes-regular.ttf') format('truetype');
-}
+} */
 
 @font-face {
     font-family: 'Inspiration';
