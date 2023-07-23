@@ -46,8 +46,27 @@
 font-family: 'AlexBrushRegular';
 }    
 
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(50%);
+    transition: all 2s;
+}
 
+.hiddenp{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-50%);
+    transition: all 2s;
+}
 
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 
-
-
+body{
+    background-color: #131316;
+    color: white;
+}
