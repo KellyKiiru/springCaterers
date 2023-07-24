@@ -43,7 +43,8 @@
 }
 
 *{
-font-family: 'AlexBrushRegular';
+    font-family: 'AlexBrushRegular';
+    box-sizing: border-box;
 }    
 
 .hidden{
