@@ -10,6 +10,7 @@ import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ClientsComponent } from './clients/clients.component';
+import { RallycallComponent } from './rallycall/rallycall.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ClientsComponent } from './clients/clients.component';
     ServicesComponent,
     FooterComponent,
     CarouselComponent,
-    ClientsComponent
+    ClientsComponent,
+    RallycallComponent
   ],
   imports: [
     BrowserModule,
