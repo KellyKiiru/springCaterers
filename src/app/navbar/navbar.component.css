@@ -1,14 +1,5 @@
-nav{
-    border: 2px solid red;
-}
 
 a{
     color: white;
-    /* font-size: 100px; */
     text-decoration: underline;
-    /* padding: 1px 10px ; */
-}
-
-@media screen {
-    
 }
