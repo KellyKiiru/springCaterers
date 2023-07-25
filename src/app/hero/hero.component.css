@@ -34,6 +34,7 @@ h1{
     }
     .app-hero{
       height: 50vh;
+      background-image: url("src\assets\pexels-ivan-57980.jpg");      
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
