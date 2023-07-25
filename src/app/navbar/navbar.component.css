@@ -1,12 +1,12 @@
-/* nav{
-    z-index: 1000;
-} */
+nav{
+    border: 2px solid red;
+}
 
 a{
     color: white;
-    font-size: xx-large;
+    /* font-size: 100px; */
     text-decoration: underline;
-    padding: 1px 10px ;
+    /* padding: 1px 10px ; */
 }
 
 @media screen {
