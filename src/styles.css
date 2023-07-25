@@ -196,17 +196,13 @@ ul li{
 }
 
 /* xs */
-@media (max-width: 475px) {
+@media (max-width: 480px) {
   .container {
     width: 100%;
   }
   .app-hero{
     height: 50vh;
   }
-
-  /* .hiddenp, .hidden{
-    display: none;
-  } */
 
   .about-section, .service-section{
     display: flex; 
