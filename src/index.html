@@ -50,26 +50,11 @@
         
     });
 
-    document.addEventListener("DOMContentLoaded", function() {
-  const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-          console.log(entry);
-          if (entry.isIntersecting) {
-              entry.target.classList.add('show');
-          } else {
-              entry.target.classList.remove('show');
-          }
-      });
-  });
-
-  const hiddenElements = document.querySelectorAll('.hiddeny');
-  hiddenElements.forEach((el) => observer.observe(el));
-});
             const tarehe = new Date()
             console.log(tarehe.getFullYear())
             document.getElementById("year").textContent="__" + tarehe.getFullYear()+ " "
             // 
-            // date code doesn't work because html is higher-up in rank to footer component. Hence document.getElementByID cannot get id=year which is 'below it. '
+            // date code doesn't work because html is higher-up in rank compared to footer component. Hence document.getElementByID cannot get id=year which is 'below it. '
             // For it to work, element with id=year should be above index.html. Which is something I will figure after a while.
 </script>
 </body>
