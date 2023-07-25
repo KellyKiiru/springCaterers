@@ -1,14 +1,11 @@
 .app-hero{
-    width: auto;
     background-image: url("src\assets\eddy-ymeri-A3I2jmRGxk0-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* position: relative; */
     align-items: center;
-    /* border: 1px solid green; */
-    /* margin-top: -100px; */
+    height: 100vh;
 }
 
 .row{
@@ -19,7 +16,33 @@
 
 h1{    
     font-size: 100px;
-    /* font-weight: bold; */
     letter-spacing: 2px;
     text-decoration: underline;
 }
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
+  
+  /* xs */
+@media (max-width: 480px) {
+    .container {
+      width: 100%;
+    }
+    .app-hero{
+      height: 50vh;
+      background-image: url("src\assets\pexels-ivan-57980.jpg");      
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .app-hero h1{
+        font-size: 40px;
+        /* background-color: white; */
+        padding: 4px;
+    }
+  }
