@@ -49,21 +49,18 @@
 
 .hidden{
     opacity: 0;
-    filter: blur(5px);
     transform: translateX(50%);
     transition: all 2s;
 }
 
 .hiddenp{
     opacity: 0;
-    filter: blur(5px);
     transform: translateX(-50%);
     transition: all 2s;
 }
 
 .hiddeny{
     opacity: 0;
-    filter: blur(5px);
     transform: translateY(50%);
     transition: all 1s;
 }
@@ -77,6 +74,7 @@
 body{
     background-color: #131316;
     color: white;
+    border: 3px solid red;
 }
 
 ul li{
@@ -218,6 +216,24 @@ ul li{
 
   .service-section{
     flex-direction: column-reverse;
+  }
+
+  .hidden{
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 2s;
+}
+
+  .hiddenp{
+      opacity: 0;
+      transform: translateY(-50%);
+      transition: all 2s;
+  }
+
+  .show{
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
   }
 
 }
