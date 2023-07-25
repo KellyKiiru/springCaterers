@@ -49,19 +49,19 @@
 
 .hidden{
     opacity: 0;
-    transform: translateX(50%);
-    transition: all 2s;
+    transform: translateX(25%);
+    transition: all 1s;
 }
 
 .hiddenp{
     opacity: 0;
-    transform: translateX(-50%);
-    transition: all 2s;
+    transform: translateX(-25%);
+    transition: all 1s;
 }
 
 .hiddeny{
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(25%);
     transition: all 1s;
 }
 
@@ -220,14 +220,14 @@ ul li{
 
   .hidden{
     opacity: 0;
-    transform: translateY(50%);
-    transition: all 2s;
+    transform: translateY(25%);
+    transition: all 1s;
 }
 
   .hiddenp{
       opacity: 0;
-      transform: translateY(-50%);
-      transition: all 2s;
+      transform: translateY(-25%);
+      transition: all 1s;
   }
 
   .show{
