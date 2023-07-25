@@ -4,6 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
+p{
+  font-family: none;
+}
 
 @font-face {
     font-family: 'Great_vibes';
@@ -43,7 +46,7 @@
 }
 
 *{
-    font-family: 'AlexBrushRegular';
+    font-family: none;
     box-sizing: border-box;
 }    
 
