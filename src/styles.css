@@ -50,19 +50,19 @@ p{
     box-sizing: border-box;
 }    
 
-.hidden{
+.l{
     opacity: 0;
     transform: translateX(25%);
     transition: all 1s;
 }
 
-.hiddenp{
+.lp{
     opacity: 0;
     transform: translateX(-25%);
     transition: all 1s;
 }
 
-.hiddeny{
+.ly{
     opacity: 0;
     transform: translateY(25%);
     transition: all 1s;
@@ -216,13 +216,13 @@ ul li{
     flex-direction: column-reverse;
   }
 
-  .hidden{
+  .l{
     opacity: 0;
     transform: translateY(25%);
     transition: all 1s;
 }
 
-  .hiddenp{
+  .lp{
       opacity: 0;
       transform: translateY(-25%);
       transition: all 1s;
