@@ -28,7 +28,7 @@ h1{
   }
   
   /* xs */
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .container {
       width: 100%;
     }
