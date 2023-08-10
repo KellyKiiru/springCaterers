@@ -206,6 +206,10 @@ ul li{
     height: 50vh;
   }
 
+  #app-navbar{
+    display: none;
+  }
+
   .about-section, .service-section{
     display: flex; 
     flex-direction: column;
